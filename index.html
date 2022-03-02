@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation V1.0</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/686bef32b8.js" crossorigin="anonymous"></script>
+    <script src="js/app.js" defer></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Create Account</h2>
+      </div>
+      <form action="" class="form" id="form">
+        <div class="form-control">
+          <label for="">Username</label>
+          <input type="text" placeholder="eg:- iamAlias007" id="username" />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="">Email</label>
+          <input type="email" placeholder="eg:- hello@iamAlias007" id="email" />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="">Password</label>
+          <input type="password" placeholder="Password" id="password" />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="">Check password</label>
+          <input type="password" placeholder="Re-enter your password" id="password2" />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error message</small>
+        </div>
+
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
